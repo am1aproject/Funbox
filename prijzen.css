@@ -1,5 +1,3 @@
-/*TopNavBar-------*/
-
 /*TopNavBar------------------*/
 body {margin:0;}
 ul.topnav {
@@ -63,7 +61,7 @@ body {font-family: Verdana,sans-serif;}
 /*TopNavBar------*/
 
 
-.boxje {
+* {
     box-sizing: border-box;
 }
 
