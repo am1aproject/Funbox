@@ -51,7 +51,7 @@
 }
 .first {
     width: 48%;
-    float:right; /* add this */
+    float:left; /* add this */
     -webkit-box-shadow: 3px 3px 5px 6px gray;
     -moz-box-shadow:    3px 3px 5px 6px gray;
     box-shadow:         3px 3px 5px 6px gray;
@@ -79,7 +79,7 @@
 }
 .second {
     width: 48%;
-    float: left; /* add this */
+    float: right; /* add this */
     -webkit-box-shadow: 3px 3px 5px 6px gray;
     -moz-box-shadow:    3px 3px 5px 6px gray;
     box-shadow:         3px 3px 5px 6px gray;
