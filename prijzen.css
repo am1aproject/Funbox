@@ -1,5 +1,12 @@
 /*TopNavBar------------------*/
 body {margin:0;}
+
+
+
+.footerContent{
+  height: 20px;
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -81,7 +88,7 @@ body {font-family: Verdana,sans-serif;}
 }
 
 .price:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 8px 12px 0 rgba(30,30,30,0.2)
 }
 
 .price .header {
