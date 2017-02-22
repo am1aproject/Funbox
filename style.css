@@ -1,32 +1,12 @@
-
 /*TopNavBar------------------*/
-@media (max-width: 768px) {
-  .btn-responsive {
-    padding:2px 4px;
-    font-size:80%;
-    line-height: 1;
-    border-radius:3px;
-  }
-}
 
-@media (min-width: 769px) and (max-width: 992px) {
-  .btn-responsive {
-    padding:4px 9px;
-    font-size:90%;
-    line-height: 1.2;
-  }
-}
 
-.myBtn{
-  margin-bottom: 1cm;
-}
-hr {
-  border: 1px solid black;
-  opacity: 0.5
-}
-
-.parent{
-  display: flex;
+.wrapper {
+    width: 100%;
+    border: 0px solid black;
+    overflow: hidden; /* add this to contain floated children */
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .myButton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
@@ -43,7 +23,7 @@ hr {
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
 	border-radius:6px;
-	border: 1px solid #268a16;
+	border:1px solid #268a16;
 	display:inline-block;
 	cursor:pointer;
 	color:#306108;
@@ -246,6 +226,10 @@ body {font-family: Verdana,sans-serif;}
         .jssora22r.jssora22rdn { background-position: -310px -31px; }
         .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
         .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+
+* {
+  
+}
 
 .a {
   position:absolute;
